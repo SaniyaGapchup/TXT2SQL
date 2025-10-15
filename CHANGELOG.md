@@ -125,7 +125,7 @@ This is the first public release of the Text-to-SQL with Small Language Models p
 
 **What's Next:**
 - See [Unreleased] section above for planned features
-- Check [Issues](https://github.com/yourusername/TXT2SQL/issues) for ongoing work
+- Check [Issues](https://github.com/SaniyaGapchup/TXT2SQL/issues) for ongoing work
 - Join discussions for feature requests
 
 ---
@@ -158,5 +158,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.
 
 ---
 
-[Unreleased]: https://github.com/yourusername/TXT2SQL/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/yourusername/TXT2SQL/releases/tag/v0.1.0
+[Unreleased]: https://github.com/SaniyaGapchup/TXT2SQL/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/SaniyaGapchup/TXT2SQL/releases/tag/v0.1.0

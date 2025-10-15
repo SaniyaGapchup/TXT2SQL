@@ -11,7 +11,7 @@ If you use this work in your research or project, please cite:
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/TXT2SQL}},
+  howpublished = {\url{https://github.com/SaniyaGapchup/TXT2SQL}},
   version = {0.1.0}
 }
 ```
@@ -19,13 +19,13 @@ If you use this work in your research or project, please cite:
 ## APA
 
 ```
-Your Name. (2025). Text-to-SQL with Small Language Models (Version 0.1.0) [Computer software]. GitHub. https://github.com/yourusername/TXT2SQL
+Your Name. (2025). Text-to-SQL with Small Language Models (Version 0.1.0) [Computer software]. GitHub. https://github.com/SaniyaGapchup/TXT2SQL
 ```
 
 ## MLA
 
 ```
-Your Name. "Text-to-SQL with Small Language Models." GitHub, 2025, github.com/yourusername/TXT2SQL.
+Your Name. "Text-to-SQL with Small Language Models." GitHub, 2025, github.com/SaniyaGapchup/TXT2SQL.
 ```
 
 ## Acknowledgments

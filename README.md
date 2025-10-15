@@ -8,9 +8,9 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/TXT2SQL?style=social)](https://github.com/yourusername/TXT2SQL/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/TXT2SQL?style=social)](https://github.com/yourusername/TXT2SQL/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/TXT2SQL)](https://github.com/yourusername/TXT2SQL/issues)
+[![GitHub stars](https://img.shields.io/github/stars/SaniyaGapchup/TXT2SQL?style=social)](https://github.com/SaniyaGapchup/TXT2SQL/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/SaniyaGapchup/TXT2SQL?style=social)](https://github.com/SaniyaGapchup/TXT2SQL/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/SaniyaGapchup/TXT2SQL)](https://github.com/SaniyaGapchup/TXT2SQL/issues)
 
 **Demonstrating that Small Language Models can compete with GPT-4 on Text-to-SQL at 1% of the cost**
 
@@ -346,7 +346,7 @@ Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
   title={Text-to-SQL with Small Language Models: A Comparative Study},
   author={Your Name},
   year={2024},
-  howpublished={\\url{https://github.com/yourusername/TXT2SQL}}
+  howpublished={\\url{https://github.com/SaniyaGapchup/TXT2SQL}}
 }
 ```
 

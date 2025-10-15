@@ -181,7 +181,7 @@ python experiments/evaluate_all.py --num_samples 50 --generalist_samples 20
 
 - 📚 [Full Documentation](README.md)
 - 🔧 [Configuration Guide](config/README.md)
-- 💬 [Report Issues](https://github.com/yourusername/txt2sql/issues)
+- 💬 [Report Issues](https://github.com/SaniyaGapchup/txt2sql/issues)
 - 📊 [Spider Leaderboard](https://yale-lily.github.io/spider)
 
 ## Tips for Best Results

@@ -489,14 +489,14 @@ python scripts/verify_rstar.py
   title={Text-to-SQL with Small Language Models: A Comprehensive Study},
   author={Your Name},
   year={2024},
-  url={https://github.com/yourusername/TXT2SQL}
+  url={https://github.com/SaniyaGapchup/TXT2SQL}
 }
 
 @software{rstar_sql_2024,
   title={rStar-SQL: Deep Thinking for Text-to-SQL with MCTS},
   author={Your Name},
   year={2024},
-  url={https://github.com/yourusername/TXT2SQL}
+  url={https://github.com/SaniyaGapchup/TXT2SQL}
 }
 ```
 

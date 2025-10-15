@@ -274,8 +274,8 @@ best_sql = max(predictions, key=lambda x: x[1])[0]
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/TXT2SQL/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/TXT2SQL/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SaniyaGapchup/TXT2SQL/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SaniyaGapchup/TXT2SQL/discussions)
 - **Documentation**: See `docs/rstar_sql_detailed.md`
 
 ---
