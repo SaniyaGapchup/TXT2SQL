@@ -253,13 +253,13 @@ notebooks/03_rstar_analysis.ipynb # Full analysis notebook
 
 Based on rStar-Math paper and implementation:
 
-| Metric | Value | Notes |
-|--------|-------|-------|
-| Execution Accuracy | 84-90% | Near GPT-4 (89%) |
-| Exact Match | 76-82% | Strong performance |
-| Inference Time | 200ms | 4x slower than LoRA, 6x faster than GPT-4 |
-| Cost per 1K | $0.03 | 66x cheaper than GPT-4 |
-| Valid SQL Rate | >95% | High quality generation |
+| Metric | Notes |
+|--------|-------|
+| Execution Accuracy | Strong performance |
+| Exact Match | Good coverage |
+| Inference Time | Faster than API-based models |
+| Cost per Query | Cost-effective |
+| Valid SQL Rate | High quality generation |
 
 ## Usage Examples
 
@@ -321,16 +321,16 @@ python experiments/train_rstar.py \
 
 | Approach | Training | Inference | Quality | Cost |
 |----------|----------|-----------|---------|------|
-| LoRA | 2 hrs | 45ms | 77% | $0.01 |
-| DoRA | 3 hrs | 50ms | 79% | $0.01 |
-| GRPO | 5 hrs | 70ms | 84% | $0.02 |
-| **rStar** | **8 hrs** | **200ms** | **88%** | **$0.03** |
-| GPT-4 | - | 1200ms | 89% | $2.00 |
+| LoRA | 2 hrs | Fast | Good | Low |
+| DoRA | 3 hrs | Fast | Good | Low |
+| GRPO | 5 hrs | Moderate | Better | Low |
+| **rStar** | **8 hrs** | **Moderate** | **Strong** | **Low** |
+| GPT-4 | - | Slow | Strong | High |
 
 ## Acknowledgments
 
 This implementation is inspired by:
-- **rStar-Math**: Deep thinking achieves 90% on MATH benchmark
+- **rStar-Math**: Deep thinking for mathematical reasoning
 - **AlphaGo**: Original MCTS + neural network approach
 - **Process Reward Models**: Step-level guidance for reasoning
 

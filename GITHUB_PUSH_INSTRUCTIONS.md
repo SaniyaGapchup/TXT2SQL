@@ -4,7 +4,7 @@
 
 1. Go to https://github.com/new
 2. **Repository name**: `TXT2SQL` (or your preferred name)
-3. **Description**: "Text-to-SQL with Small Language Models: LoRA, DoRA, GRPO, and rStar-SQL deep thinking. Achieve 88% accuracy at 1/66th of GPT-4's cost."
+3. **Description**: "Text-to-SQL with Small Language Models: LoRA, DoRA, GRPO, and rStar-SQL deep thinking for cost-effective SQL generation."
 4. **Visibility**: Public or Private (your choice)
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click **"Create repository"**
@@ -96,7 +96,7 @@ Once pushed, configure these on GitHub:
 ### 1. Repository Description
 Add this description:
 ```
-Text-to-SQL with Small Language Models featuring novel rStar-SQL deep thinking. Achieve near GPT-4 performance (88% accuracy) at 1/66th the cost using LoRA, DoRA, GRPO, and MCTS-based self-evolution.
+Text-to-SQL with Small Language Models featuring novel rStar-SQL deep thinking. Cost-effective SQL generation using LoRA, DoRA, GRPO, and MCTS-based self-evolution.
 ```
 
 ### 2. Topics/Tags

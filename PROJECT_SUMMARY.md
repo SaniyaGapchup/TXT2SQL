@@ -16,10 +16,10 @@ This project demonstrates that **Small Language Models (SLMs)** can achieve comp
 | **Generalist** | Claude 3 | - | ~73% | ~83% | $0.008 |
 
 **Key Insights:**
-- SLMs achieve **85-95%** of GPT-4's performance
-- Cost reduction: **99%** (100x cheaper)
-- Training time: **2-6 hours** on single A100 GPU
-- Inference: **3-5x faster** than API calls
+- SLMs achieve strong performance comparable to larger models
+- Significant cost reduction compared to API-based solutions
+- Training time: Several hours on single A100 GPU
+- Inference: Faster than API calls
 
 ## 🏗️ Project Structure
 

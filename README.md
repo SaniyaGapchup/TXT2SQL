@@ -179,20 +179,6 @@ python experiments/evaluate_all.py
 4. **Inference Time**: Average response time
 5. **Cost per Query**: API/compute costs
 
-## Expected Results
-
-| Model | Strategy | EM (%) | EX (%) | Time (ms) | Cost/1K |
-|-------|----------|--------|--------|-----------|---------|
-| Phi-2 | LoRA | 68-72 | 75-79 | 45 | $0.01 |
-| Phi-2 | DoRA | 70-74 | 77-81 | 50 | $0.01 |
-| Llama-7B | LoRA | 71-75 | 78-82 | 60 | $0.02 |
-| Llama-7B | DoRA | 73-77 | 80-84 | 65 | $0.02 |
-| Mistral-7B | GRPO | 75-79 | 82-86 | 70 | $0.02 |
-| **Phi-2** | **rStar-SQL** | **76-82** | **84-90** | **200** | **$0.03** |
-| GPT-4 | Prompt | 78-82 | 85-89 | 1200 | $2.00 |
-| Gemini Pro | Prompt | 76-80 | 83-87 | 800 | $1.50 |
-| Claude 3 | Prompt | 77-81 | 84-88 | 900 | $1.80 |
-
 ## 🔥 rStar-SQL: Deep Thinking for Text-to-SQL
 
 ### Overview
@@ -271,8 +257,8 @@ python experiments/evaluate_rstar.py \
 
 ### Key Advantages
 
-✅ **Near GPT-4 Performance**: Achieves 84-90% execution accuracy on Spider  
-✅ **66x Cheaper**: $0.03 vs $2.00 per 1K queries  
+✅ **High Performance**: Strong execution accuracy on Spider dataset  
+✅ **Cost-Effective**: Significantly cheaper than large API-based models  
 ✅ **Verifiable Reasoning**: MCTS provides interpretable search trees  
 ✅ **No External APIs**: Fully self-contained, can run offline  
 ✅ **Controllable Quality**: More simulations = better results  
@@ -298,22 +284,21 @@ evolution:
 
 **Use rStar-SQL when:**
 - You need high accuracy on complex SQL tasks
-- Cost and privacy are concerns (vs GPT-4)
+- Cost and privacy are concerns vs large API-based models
 - You want interpretable reasoning paths
-- You can afford slightly higher latency (200ms vs 45ms)
+- You can afford test-time computation for better quality
 
 **Use simpler strategies when:**
-- You need real-time responses (<50ms)
+- You need real-time responses
 - Queries are simple (single-table)
-- Accuracy requirements are moderate (<80%)
-
+- Lower accuracy is acceptable
 
 
 ## Key Findings
 
-1. **Performance**: Fine-tuned SLMs achieve 85-95% of GPT-4 performance
-2. **Speed**: SLMs are 15-25x faster than generalist models
-3. **Cost**: SLMs are 100-200x cheaper per query
+1. **Performance**: Fine-tuned SLMs achieve strong execution accuracy
+2. **Speed**: SLMs are significantly faster than generalist models
+3. **Cost**: SLMs are substantially cheaper per query
 4. **Deployability**: SLMs can run on-premise (4-8GB VRAM)
 
 ## Technical Details

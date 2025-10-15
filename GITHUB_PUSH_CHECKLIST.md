@@ -172,9 +172,9 @@ Your repository will showcase:
 - 🤝 Open source (MIT)
 
 ### Expected Impact
-- **Performance:** 88% accuracy (near GPT-4)
-- **Cost:** 66x cheaper than GPT-4
-- **Speed:** 6x faster than GPT-4
+- **Performance:** Strong execution accuracy
+- **Cost:** Significantly cheaper than GPT-4
+- **Speed:** Faster inference than GPT-4
 - **Innovation:** First open-source rStar for SQL
 
 ## Next Steps After Push

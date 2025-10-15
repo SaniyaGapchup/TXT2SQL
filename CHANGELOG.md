@@ -117,12 +117,6 @@ This is the first public release of the Text-to-SQL with Small Language Models p
 - ✅ Full documentation and examples
 - ✅ Automated testing and CI/CD
 
-**Expected Performance:**
-- Phi-2 + LoRA: ~72% execution accuracy
-- Llama-7B + DoRA: ~75% execution accuracy
-- Mistral-7B + GRPO: ~78% execution accuracy
-- Cost reduction: 99% compared to GPT-4
-
 **What's Next:**
 - See [Unreleased] section above for planned features
 - Check [Issues](https://github.com/SaniyaGapchup/TXT2SQL/issues) for ongoing work

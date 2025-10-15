@@ -204,8 +204,7 @@ Issue/PR templates:        3 templates
 - ✅ First open-source adaptation of rStar-Math for SQL
 - ✅ Complete MCTS engine with 850+ lines
 - ✅ Self-evolution training loop
-- ✅ Achieves near GPT-4 performance at 1/66th cost
-- ✅ 200ms inference (6x faster than GPT-4)
+- ✅ Achieves strong performance with cost-effective inference
 
 ### 3. Comprehensive Evaluation
 - ✅ 5 evaluation metrics implemented
@@ -228,34 +227,6 @@ Issue/PR templates:        3 templates
 - ✅ Citation information
 - ✅ Quick start guides
 - ✅ rStar-SQL comprehensive guide
-
----
-
-## 🚀 Performance Summary
-
-### Expected Results
-
-| Model | Strategy | Exact Match | Execution Acc | Time (ms) | Cost/1K |
-|-------|----------|-------------|---------------|-----------|---------|
-| Phi-2 | Baseline | 45% | 52% | 40 | $0.01 |
-| Phi-2 | LoRA | 70% | 77% | 45 | $0.01 |
-| Phi-2 | DoRA | 72% | 79% | 50 | $0.01 |
-| Phi-2 | **rStar** 🔥 | **80%** | **88%** | **200** | **$0.03** |
-| Llama-7B | LoRA | 73% | 80% | 60 | $0.02 |
-| Llama-7B | DoRA | 75% | 82% | 65 | $0.02 |
-| Mistral-7B | GRPO | 77% | 84% | 70 | $0.02 |
-| GPT-4 | Prompt | 82% | 89% | 1200 | $2.00 |
-| Gemini Pro | Prompt | 78% | 85% | 800 | $1.50 |
-| Claude 3 | Prompt | 80% | 87% | 900 | $1.80 |
-
-### rStar-SQL Key Advantages
-
-✅ **Performance**: 88% execution accuracy (98.9% of GPT-4)  
-✅ **Cost**: $0.03 per 1K queries (66x cheaper than GPT-4)  
-✅ **Speed**: 200ms inference (6x faster than GPT-4)  
-✅ **Privacy**: Fully on-premise, no API calls  
-✅ **Interpretability**: Complete reasoning trees via MCTS  
-✅ **Controllable**: More simulations = better quality  
 
 ---
 

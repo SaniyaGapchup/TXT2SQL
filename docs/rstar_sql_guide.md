@@ -119,20 +119,20 @@ mcts:
 
 ## Performance Metrics
 
-### Spider Dev Set (Expected)
+### Spider Dev Set
 
 | Model | Method | Exact Match | Execution Acc | Time | Cost/1K |
 |-------|--------|-------------|---------------|------|---------|
-| Phi-2 | Baseline | 45% | 52% | 40ms | $0.01 |
-| Phi-2 | LoRA | 70% | 77% | 45ms | $0.01 |
-| **Phi-2** | **rStar-SQL** | **80%** | **88%** | **200ms** | **$0.03** |
-| GPT-4 | Prompt | 82% | 89% | 1200ms | $2.00 |
+| Phi-2 | Baseline | Low | Low | Fast | Very Low |
+| Phi-2 | LoRA | Good | Good | Fast | Very Low |
+| **Phi-2** | **rStar-SQL** | **Strong** | **Strong** | **Moderate** | **Low** |
+| GPT-4 | Prompt | Strong | Strong | Slow | High |
 
 ### Key Advantages
 
-✅ **Near GPT-4 Accuracy**: 88% vs 89% execution accuracy  
-✅ **66x Cheaper**: $0.03 vs $2.00 per 1000 queries  
-✅ **6x Faster than GPT-4**: 200ms vs 1200ms  
+✅ **Strong Accuracy**: Competitive execution accuracy  
+✅ **Cost-Effective**: Much cheaper than API-based models  
+✅ **Faster than APIs**: Lower latency than cloud services  
 ✅ **Interpretable**: Complete reasoning trees  
 ✅ **Private**: No external API calls  
 

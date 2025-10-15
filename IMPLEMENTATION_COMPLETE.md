@@ -182,26 +182,7 @@ jupyter notebook notebooks/
 
 ---
 
-## 📈 Expected Results
-
-| Model | Strategy | Training Time | Exact Match | Exec. Acc | Cost/Query | ROI |
-|-------|----------|---------------|-------------|-----------|------------|-----|
-| **Phi-2** | LoRA | 2-3 hrs | ~60% | ~72% | $0.0001 | 100x |
-| **Llama-7B** | DoRA | 3-4 hrs | ~65% | ~75% | $0.0001 | 100x |
-| **Mistral-7B** | GRPO | 5-6 hrs | ~68% | ~78% | $0.0001 | 100x |
-| GPT-4 | - | N/A | ~75% | ~85% | $0.01 | 1x |
-| Gemini Pro | - | N/A | ~70% | ~80% | $0.005 | 2x |
-| Claude 3 | - | N/A | ~73% | ~83% | $0.008 | 1.25x |
-
-**Key Takeaways:**
-- SLMs achieve **85-95%** of GPT-4 performance
-- **100x cost reduction** compared to GPT-4
-- **99% reduction** in deployable parameters
-- Can run **on-premise** (data privacy)
-
----
-
-## 🛠️ Customization Options
+## ️ Customization Options
 
 ### 1. Add Your Own Model
 ```python
