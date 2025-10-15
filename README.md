@@ -339,17 +339,6 @@ evolution:
 
 Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
 
-## Citation
-
-```bibtex
-@misc{txt2sql_slm_2024,
-  title={Text-to-SQL with Small Language Models: A Comparative Study},
-  author={Your Name},
-  year={2024},
-  howpublished={\\url{https://github.com/SaniyaGapchup/TXT2SQL}}
-}
-```
-
 ## License
 
 MIT License - see LICENSE file for details

@@ -2,7 +2,11 @@
 
 ## Project Overview
 
-A comprehensive Text-to-SQL system demonstrating that **Small Language Models (SLMs)** can achieve competitive performance with GPT-4 at a fraction of the cost using advanced fine-tuning strategies and novel deep thinking approaches.
+A comprehensive Text-to-SQL system demonstrating that **Small Language Models (SLMs)** can achieve competitive performance with GPT-4 at a - ✅ Excellent Documentation
+- ✅ README with badges and examples
+- ✅ Contributing guidelines
+- ✅ Security policy
+- ✅ Quick start guideson of the cost using advanced fine-tuning strategies and novel deep thinking approaches.
 
 ---
 
@@ -124,7 +128,6 @@ A comprehensive Text-to-SQL system demonstrating that **Small Language Models (S
 - [x] CODE_OF_CONDUCT.md
 - [x] CHANGELOG.md
 - [x] SECURITY.md
-- [x] CITATION.md
 - [x] LICENSE (MIT)
 - [x] QUICKSTART.md
 
@@ -337,7 +340,6 @@ TXT2SQL/
     ├── CODE_OF_CONDUCT.md
     ├── CHANGELOG.md
     ├── SECURITY.md
-    ├── CITATION.md
     └── QUICKSTART.md
 ```
 
@@ -479,26 +481,6 @@ python scripts/verify_rstar.py
 - **Hugging Face**: Transformers, PEFT, TRL
 - **PyTorch**: Deep learning framework
 - **OpenAI, Google, Anthropic**: API access
-
----
-
-## 📝 Citation
-
-```bibtex
-@software{txt2sql_slm_2024,
-  title={Text-to-SQL with Small Language Models: A Comprehensive Study},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/SaniyaGapchup/TXT2SQL}
-}
-
-@software{rstar_sql_2024,
-  title={rStar-SQL: Deep Thinking for Text-to-SQL with MCTS},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/SaniyaGapchup/TXT2SQL}
-}
-```
 
 ---
 

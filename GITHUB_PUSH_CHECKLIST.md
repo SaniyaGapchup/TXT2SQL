@@ -148,7 +148,6 @@ git push
 - ✅ Implementation summary
 - ✅ Contributing guidelines
 - ✅ Security policy
-- ✅ Citation guide
 
 ### Infrastructure
 - ✅ GitHub Actions workflows
